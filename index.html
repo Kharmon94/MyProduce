@@ -7,23 +7,61 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script type="text/javascript" src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
 
-    <title>Potato</title>
+    <title>My Producer Landing</title>
   </head>
   <body>
-    <div class="container">
+    <nav class='navbar navbar-default'>
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            My Producer Logo
+          </div>
+        </div>
+        <div>
+          <ul class="nav navbar-nav navbar-right">
+            <li class='active'><a href="#">Home</a></li>
+            <li><a href="#">Link1</a></li>
+            <li><a href="#">Link2</a></li>
+            <li><a href="#">Link3</a></li>
+          </ul>
+        </div>
+      </div>
 
-      <h1>Hello World</h1>
-      <h2>Info about project</h2>
-      <h3>The Problem</h3>
-      <ul>
-        <li>All the Things That Currently Suck</li>
-      </ul>
-      <h3>The Solution</h3>
-      <ul>
-        <li>List Services Provided</li>
-        <li>How it will make things better</li>
-      </ul>
+    </nav>
+    <div class="container test">
+      <div class="row hero test">
 
+        <div class="hero-intro welcome">
+          <h1>Welcome to My Producer</h1>
+        </div>
+
+        <div class="short-info ">
+          <div class="blurb test">
+
+            <p>
+            Helping Creatives Connect <br>
+            Website Coming Soon <br>
+            Sign Up Now for Updates!
+            </p>
+
+            <button type="button" class='btn btn-info btn-sm' data-toggle='modal' data-target='#myModal' name="button">Sign Up for Newsletter</button>
+          </div>
+        </div>
+      </div>
+      <div class="row problem test">
+        <div class="mission1-intro welcome">
+          <h1>The Problem</h1>
+        </div>
+
+      </div>
+      <div class="row solution test">
+          <div class="mission2-intro welcome">
+            <h1>The Solution</h1>
+          </div>
+      </div>
+
+<!-- Button for the Modal  -->
+    <div class="row test">
       <button type="button" class='btn btn-info btn-lg' data-toggle='modal' data-target='#myModal' name="button">Sign Up for Newsletter</button>
 
       <div class="modal fade" id='myModal' role='dialog'>
@@ -34,11 +72,15 @@
               <h4 class='modal-title'>Newsletter SignUp</h4>
             </div>
             <div class="modal-body">
-              <input type="text" placeholder='First Name'>
-              <input type="text" placeholder='Last Name'>
-              <input type="text" placeholder='Email'>
-              <input type="text" placeholder='Phone Number'>
-              <input type="text" placeholder='Creative Specialty'>
+              <form action="https://docs.google.com/spreadsheets/d/1HElnj3e309nZwq39vY9XOZL2gy22mjXQuIG-CHXRhfo/edit?usp=sharing" method="POST" id="ss-form" target="_self" onsubmit="">
+                <input type="text" placeholder='First Name'>
+                <input type="text" placeholder='Last Name'>
+                <input type="text" placeholder='Email'>
+                <input type="text" placeholder='Phone Number'>
+                <input type="text" placeholder='Creative Specialty'>
+                <input type="submit" name="" value="Submit">
+              </form>
+
             </div>
             <div class="modal-footer">
               <button type="button" class='btn btn-default' data-dismiss='modal' name="button"> Close </button>
@@ -46,9 +88,7 @@
           </div>
         </div>
       </div>
-
-
-
+    </div>
     </div>
 
     <script type="text/javascript" src='main.js'></script>

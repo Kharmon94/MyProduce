@@ -1,3 +1,54 @@
 .modal-body > input {
   display: block;
 }
+
+.test{
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 1px solid red;
+}
+
+nav{
+  margin-bottom: 0!important;
+}
+.container{
+  width: 100% !important;
+}
+
+.row{
+  height: 600px;
+  width: 100% !important;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.hero{
+  /*background-image: url(hero.jpg);*/
+  background-image: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.welcome{
+  float: left;
+  margin-left: 50px;
+  margin-top: 175px;
+}
+
+.short-info{
+  text-align: left !important;
+  border: 1px solid red;
+  padding: 30px;
+  margin-top: 150px;
+  margin-right: 50px;
+  float: right;
+  width: 300px;
+  height: 150px;
+}
+
+.blurb{
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.5);
+}
