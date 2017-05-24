@@ -48,21 +48,41 @@
           </div>
         </div>
       </div>
+
       <div class="row problem test">
         <div class="mission1-intro welcome">
           <h1>The Problem</h1>
         </div>
 
       </div>
+
       <div class="row solution test">
           <div class="mission2-intro welcome">
             <h1>The Solution</h1>
           </div>
       </div>
 
+      <div class="row test signup">
+        <div class="mission3-intro welcome">
+          <h1>Sign Up for Updates</h1>
+        </div>
+
+        <div class="signup-form">
+          <form class="main-page" action="" method="post">
+            <input type="text" placeholder="First Name" value="">
+            <input type="text" placeholder="Last Name" value="">
+            <input type="text" placeholder="Email" value="" size="50">
+            <input type="text" placeholder="Phone Number" value="" size='50'>
+            <p>Message:</p>
+            <textarea name="messages" rows="8" cols="50"></textarea>
+            <input type="submit" name="Submit" value="Submit">
+          </form>
+        </div>
+      </div>
+
 <!-- Button for the Modal  -->
-    <div class="row test">
-      <button type="button" class='btn btn-info btn-lg' data-toggle='modal' data-target='#myModal' name="button">Sign Up for Newsletter</button>
+    <!-- <div class="row test"> -->
+      <!-- <button type="button" class='btn btn-info btn-lg' data-toggle='modal' data-target='#myModal' name="button">Sign Up for Newsletter</button> -->
 
       <div class="modal fade" id='myModal' role='dialog'>
         <div class="modal-dialog">
@@ -72,7 +92,7 @@
               <h4 class='modal-title'>Newsletter SignUp</h4>
             </div>
             <div class="modal-body">
-              <form action="https://docs.google.com/spreadsheets/d/1HElnj3e309nZwq39vY9XOZL2gy22mjXQuIG-CHXRhfo/edit?usp=sharing" method="POST" id="ss-form" target="_self" onsubmit="">
+              <form  action="https://docs.google.com/a/17webdev.com/forms/d/e/1FAIpQLSfzKqPsxJXSfVImfN-RVv7bCEAlDJpRE7rqd83Gw6G88Gb1ZQ/formResponse" method="POST" class='modal-body' target="_self" onsubmit="">
                 <input type="text" placeholder='First Name'>
                 <input type="text" placeholder='Last Name'>
                 <input type="text" placeholder='Email'>
@@ -88,7 +108,8 @@
           </div>
         </div>
       </div>
-    </div>
+    <!-- </div> -->
+
     </div>
 
     <script type="text/javascript" src='main.js'></script>
