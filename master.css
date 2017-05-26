@@ -1,3 +1,4 @@
+
 .modal-body > input {
   display: block;
 }
@@ -34,7 +35,6 @@ nav{
   float: left;
   margin-left: 50px;
   margin-top: 175px;
-  border: 1px solid red;
 }
 
 .short-info{
@@ -52,25 +52,4 @@ nav{
   text-align: center;
   border-radius: 5px;
   background-color: rgba(0,0,0,0.5);
-}
-
-.signup-form {
-  border: 1px solid red;
-  width: 500px;
-  margin-top: 120px;
-  margin-right: 50px;
-  float: right;
-}
-.main-page{
-    text-align: center;
-}
-
-.main-page > textarea{
-  display: block;
-  margin: 10px auto;
-}
-
-.main-page > input{
-  display: inline-block;
-  margin: 10px;
 }
