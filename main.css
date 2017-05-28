@@ -3,18 +3,18 @@ body {
 }
 
 #mymodal {
-  font-family: 'Amaranth', sans-serif;
+  font-family: 'Convergence', sans-serif;
 }
 
 .modal-body > input {
   display: block;
-  font-family: 'Amaranth', sans-serif;
+  font-family: 'Convergence', sans-serif;
 }
 
 nav{
   margin-bottom: 100px;
   background-color: black;
-  font-family: 'Amaranth', sans-serif;
+  font-family: 'Convergence', sans-serif;
   font-size: 18px;
 }
 
@@ -73,10 +73,16 @@ nav{
 }
 
 #sec2 {
+  border-top: solid;
+  border-color: red;
+  border-width: 0.5px;
   margin-top: 25%;
 }
 
 #sec3 {
+  border-top: solid;
+  border-color: red;
+  border-width: 0.5px;
   margin-top: 25%;
 }
 
@@ -88,7 +94,7 @@ nav{
 }*/
 
 #whatdis {
-  font-family: 'Amaranth', sans-serif;
+  font-family: 'Convergence', sans-serif;
   color: white;
 }
 
@@ -105,7 +111,7 @@ nav{
   border-radius: 5px;
   background-color: rgba(255,255,255,0.01);
   padding: 30px;
-  font-family: 'Amaranth', sans-serif;
+  font-family: 'Convergence', sans-serif;
   color: white;
 }
 #blurbbtn {
@@ -117,5 +123,5 @@ nav{
   width: 60%;
   height: 30%;
   background-color: red;
-  font-family: 'Amaranth', sans-serif;
+  font-family: 'Convergence', sans-serif;
 }
