@@ -3,19 +3,19 @@ body {
 }
 
 #mymodal {
-  font-family: 'Convergence', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .modal-body > input {
   display: block;
-  font-family: 'Convergence', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 nav{
   margin-bottom: 100px;
   background-color: black;
-  font-family: 'Convergence', sans-serif;
-  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
 }
 
 .navbar-default {
@@ -32,8 +32,15 @@ nav{
 }
 
 .row{
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.hero{
+ background-image: url(studio.jpg);
+ background-size: 100%;
+ background-repeat: no-repeat;
+ opacity: 0.8;
+ margin-top: -16px;
 }
 
 #hero-info {
@@ -43,75 +50,76 @@ nav{
   
 }
 #myprod {
-  font-size: 600%;
+  width: 30%;
+  height: 16%;
+  margin-top: -80px;
+  opacity: 0.9;
+  /*font-size: 600%;
   background: -webkit-linear-gradient(left, yellow, red, blue);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  height: 130px;
+  height: 130px;*/
 }
 
 #hero-info2 {
   margin-top: 17%;
   color: white;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Quicksand', sans-serif;
 }
 
 #hero-info3 {
   margin-top: 12%;
   color: white;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Quicksand', sans-serif;
 }
 
 #jobs {
   width: 95%;
   height:95%;
+  opacity: 0.8;
 }
 
 #chart {
   width: 35%;
   height: 35%;
+  margin-top: 6%; 
+  opacity: 0.87
 }
 
 #sec2 {
-  border-top: solid;
+/*  border-top: solid;
   border-color: red;
-  border-width: 0.5px;
-  margin-top: 25%;
+  border-width: 0.5px;*/
+/*  margin-top: 25%;*/
 }
 
 #sec3 {
-  border-top: solid;
+ /* border-top: solid;
   border-color: red;
   border-width: 0.5px;
-  margin-top: 25%;
+  margin-top: 25%;*/
 }
 
-/*.welcome{
-  color: white;
-  margin-left: 50px;
-  margin-top: 175px;
-  font-family: 'Pacifico', cursive;
-}*/
-
 #whatdis {
-  font-family: 'Convergence', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   color: white;
 }
 
 .short-info{
   /*border: 1px solid red;*/
   /*padding: 30px;*/
-  margin-top: 150px;
+  margin-top: 120px;
   width: 300px;
   height: 150px;
+  margin-bottom: 35px;
 }
 
 .blurb{
   text-align: center;
   border-radius: 5px;
-  background-color: rgba(255,255,255,0.01);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 30px;
-  font-family: 'Convergence', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   color: white;
 }
 #blurbbtn {
@@ -123,5 +131,5 @@ nav{
   width: 60%;
   height: 30%;
   background-color: red;
-  font-family: 'Convergence', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
